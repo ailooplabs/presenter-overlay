@@ -1,0 +1,19 @@
+[[permission]]
+identifier = "allow-set-window-hidden-from-capture"
+description = "Allows hiding the window from screen capture"
+commands.allow = ["set_window_hidden_from_capture"]
+
+[[permission]]
+identifier = "allow-start-dragging"
+description = "Allows dragging the window"
+commands.allow = ["start_dragging"]
+
+[[permission]]
+identifier = "allow-close-window"
+description = "Allows closing the window"
+commands.allow = ["close_window"]
+
+[[permission]]
+identifier = "allow-greet"
+description = "Allows greeting"
+commands.allow = ["greet"]

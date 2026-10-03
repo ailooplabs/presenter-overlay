@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "allow-set-window-hidden-from-capture",
+    "allow-start-dragging",
+    "allow-close-window",
+    "allow-greet"
+  ],
+  "webviewAccess": {
+    "enableBrowserExtensions": false,
+    "useHttpsScheme": false
+  }
+}
